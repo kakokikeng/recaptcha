@@ -13,7 +13,6 @@
     </modules>
 
     <properties>
-        <spring.cloud.version>1.4.4.RELEASE</spring.cloud.version>
         <spring.boot.version>2.0.3.RELEASE</spring.boot.version>
     </properties>
 
@@ -88,6 +87,12 @@
                 <version>${spring.boot.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>${spring.boot.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.springframework.boot</groupId>
@@ -101,17 +106,6 @@
                 <groupId>com.t4f.infrastructure.recaptcha</groupId>
                 <artifactId>api</artifactId>
                 <version>${project.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-                <version>2.0.0.RELEASE</version>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-starter-config</artifactId>
-                <version>${spring.cloud.version}</version>
             </dependency>
 
         </dependencies>

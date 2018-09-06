@@ -2,12 +2,22 @@ package com.yk.recaptcha.dto;
 
 
 /**
- * @author yikang
- */
+ *  验证码信息类
+ *  @Author yikang
+ *  @Date 2018/9/6
+*/
 public class RecaptchaDTO {
 
     private String key;
     private String verifyCode;
+
+    @Override
+    public String toString() {
+        return "RecaptchaDTO{" +
+                "key='" + key + '\'' +
+                ", verifyCode='" + verifyCode + '\'' +
+                '}';
+    }
 
     public RecaptchaDTO(String key, String verifyCode) {
         this.key = key;

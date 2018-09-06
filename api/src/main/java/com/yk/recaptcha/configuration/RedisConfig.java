@@ -9,8 +9,11 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 import org.springframework.data.redis.core.ReactiveRedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializationContext;
 
-
-
+/**
+ *  redis配置
+ *  @Author yikang
+ *  @Date 2018/9/6
+*/
 @Configuration
 @ConfigurationProperties("redis")
 public class RedisConfig {

@@ -1,0 +1,9 @@
+server:
+  port: 8888
+redis:
+  ip: 172.20.110.42
+  port: 6379
+
+validateCode:
+  type: 2
+  length: 4
