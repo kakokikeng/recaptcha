@@ -21,13 +21,6 @@
         <dependencies>
 
             <dependency>
-                <groupId>com.t4f.gaea</groupId>
-                <artifactId>gaea</artifactId>
-                <version>1.1-SNAPSHOT</version>
-            </dependency>
-
-
-            <dependency>
                 <groupId>com.fasterxml.jackson.module</groupId>
                 <artifactId>jackson-module-kotlin</artifactId>
                 <version>2.9.4.1</version>
@@ -99,13 +92,6 @@
                 <artifactId>spring-boot-starter-test</artifactId>
                 <version>${spring.boot.version}</version>
                 <scope>test</scope>
-            </dependency>
-
-
-            <dependency>
-                <groupId>com.t4f.infrastructure.recaptcha</groupId>
-                <artifactId>api</artifactId>
-                <version>${project.version}</version>
             </dependency>
 
         </dependencies>
