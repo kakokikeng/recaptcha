@@ -1,8 +1,8 @@
 package com.yk.recaptcha.service;
 
 
-import com.t4f.gaea.dto.Result;
 import com.yk.recaptcha.dto.RecaptchaDTO;
+import com.yk.recaptcha.dto.Result;
 import com.yk.recaptcha.utils.ValidateCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ReactiveRedisTemplate;

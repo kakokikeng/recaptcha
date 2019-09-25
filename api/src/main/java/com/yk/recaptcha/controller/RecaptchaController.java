@@ -1,7 +1,7 @@
 package com.yk.recaptcha.controller;
 
 
-import com.t4f.gaea.dto.Result;
+import com.yk.recaptcha.dto.Result;
 import com.yk.recaptcha.service.RecaptchaService;
 import com.yk.recaptcha.dto.RecaptchaDTO;
 import com.yk.recaptcha.utils.ValidateCode;
